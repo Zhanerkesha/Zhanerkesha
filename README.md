@@ -1,59 +1,41 @@
 # Zhanerke Zeilbekova
 
-**Computer Science and Engineering · Ewha Womans University · Seoul**
+AI, Computer Science & Engineering @ Ewha Womans University, Seoul
 
-I'm working toward machine learning and deep learning research and engineering.
-I learn by building working systems first, then studying the mathematics and
-architecture underneath them.
+I'm curious about the energy cost of AI. Lately I've been exploring two sides of it: building chips that run LLMs more efficiently, and using LLMs to help design better chips.
 
-**Focus areas:** large language models · AI agents · natural language processing
+### Projects
+- [university_research_agent](https://github.com/Zhanerkesha/university_research_agent) - AI agent that uses tools and streams responses in a web UI. Python, Claude API.
 
----
+### Skills
+**Languages** &nbsp;
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 
-## Featured project
+**ML** &nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-### [university_research-agent](https://github.com/Zhanerkesha/university_research-agent)
+**Systems** &nbsp;
+![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-A tool-using AI agent with a streaming web interface.
+**Tools** &nbsp;
+![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FE4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-- **Agent core:** an agentic loop on the Claude API in which the model selects
-  and calls tools, receives their results, and iterates until it can answer
-- **Tools:** six typed Python functions, including exact arithmetic and file
-  operations confined to a sandboxed workspace directory
-- **Backend:** a Python HTTP server that streams each tool call and reply to the
-  client as newline-delimited JSON
-- **Frontend:** a responsive chat interface in HTML, CSS and JavaScript with live
-  tool-activity indicators and light and dark themes
-- **In progress:** retrieval over real university programme data, so
-  recommendations are grounded in facts instead of model memory
+![](https://github-readme-stats.shion.dev/api?username=Zhanerkesha&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Zhanerkesha&theme=dark&hide_border=true&layout=compact)
 
-Built with AI assistance. I'm studying and extending each component myself.
-
----
-
-## Currently studying
-
-| Area | Topics |
-|---|---|
-| **Mathematics for ML** | Vectors, dot products, matrix multiplication, partial derivatives, gradient descent |
-| **Deep learning** | Neural network training, backpropagation, loss functions |
-| **NLP** | Tokenization, embeddings, attention, the transformer architecture |
-| **Software engineering** | Python, web fundamentals, Git workflows, API design |
-
----
-
-## Roadmap
-
-- [x] Design, build and publish a tool-using AI agent
-- [ ] Add retrieval-grounded university search to the agent
-- [ ] Implement a neural network from scratch with NumPy
-- [ ] Reimplement a small transformer and train it on a text dataset
-- [ ] Reproduce the results of a published machine learning paper
-
----
-
-## Tech
-
-- **Languages:** Python · HTML · CSS · JavaScript
-- **AI:** Claude API (Anthropic SDK) · tool use · agent design
-- **Workflow:** Git · GitHub
+### Contact
+[Email](mailto:YOUR_EMAIL) · [LinkedIn](YOUR_LINKEDIN_URL)
